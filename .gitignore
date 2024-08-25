@@ -1,0 +1,9 @@
+# Node.js modules
+node_modules/
+
+# Compiled JavaScript files
+dist/
+
+# TypeScript configuration files (optional, if not needed in version control)
+tsconfig.json
+
