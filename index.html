@@ -9,24 +9,37 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="harmony">
         <h2>Click on any card! </h2>
     <div class = "tarot-deck">
         <div class="card" data-content="./about-me.html">
-            <img src="images/tarot-card-back.jpg" alt ="About Me">
+            <img src="images/card-back.png" alt ="About Me">
+            <h3>About Me</h3>
         </div>
-        <div class="card" data-content="./about-me.html">
-            <img src="images/tarot-card-back.jpg" alt ="About Me">
+        <div class="card" data-content="./game.html">
+            <img src="images/card-back.png" alt ="Games">
+            <h3>Games I'm Into Recently</h3>
         </div>
-        <div class="card" data-content="./about-me.html">
-            <img src="images/tarot-card-back.jpg" alt ="About Me">
+        <div class="card" data-content="./coding.html">
+            <img src="images/card-back.png" alt ="Coding">
+            <h3>My Coding Journey</h3>
         </div>
     </div>
-
-    <div class="card-content">
-        <div id="content"></div>
+    <div class = "links">
+        <a href="https://github.com/camellionn">
+        <button class="button" role="button">Git Hub</button>
+        </a>
+        <a href="https://www.linkedin.com/in/tran-tra-4b493021a/">
+        <button class="button" role="button">Linked In</button>
+        </a>
+        <a href="mailto:thanhtra2004@gmail.com">
+        <button class="button" role="button">Gmail</button>
+        </a>
     </div>
 
 <script type = "module" src="dist/script.js"></script>
